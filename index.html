@@ -1,17 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi Página Web Responsive</title>
-  <link rel="stylesheet" href="style.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Dinámica</title>
+    <link rel="stylesheet" href="style.CSS">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Nosotros</a></li>
-    </ul>
-  </nav>
-  <div class="container">
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a Nuestra Página</h1>
+            <div class="form-container">
+                <label for="text-input">Ingresa tu texto:</label>
+                <input type="text" id="text-input" placeholder="Escribe aquí...">
+            </div>
+            <div class="image-container">
+                <img src="img/imagen.png" alt="Imagen de ejemplo">
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a proporcionar las mejores soluciones para tus necesidades. ¡Contáctanos para más información!</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Página Dinámica. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
