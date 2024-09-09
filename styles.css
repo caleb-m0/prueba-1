@@ -1,0 +1,23 @@
+/* Estilos personalizados */
+
+/* Espaciado y estilo para las imágenes de respuesta */
+#response-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sección de registro centrada y ajustada */
+#form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#question-container {
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
